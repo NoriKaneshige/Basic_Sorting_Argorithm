@@ -6,10 +6,9 @@
 
 
 
-// UNOPTIMIZED VERSION OF BUBBLE SORT
-
-// insert Bubble_Sort_visual.png
-// insert Bubble_Sort.png
+> ## UNOPTIMIZED VERSION OF BUBBLE SORT: :wink:
+![Bubble_Sort_visual](https://github.com/NoriKaneshige/Basic_Sorting_Argorithm/blob/master/Bubble_Sort_visual.png)
+![Bubble_Sort](https://github.com/NoriKaneshige/Basic_Sorting_Argorithm/blob/master/Bubble_Sort.png)
 
 function bubbleSort(arr){
   for(var i = arr.length; i > 0; i--){
@@ -31,7 +30,7 @@ console.log(bubbleSort([8,1,2,3,4,5,6,7]))
 //   5, 6, 7, 8
 // ]
 
-// BUBBLE SORT, ES2015 Version
+> ## BUBBLE SORT, ES2015 Version: :wink:
 function bubbleSort(arr) {
   const swap = (arr, idx1, idx2) => {
     [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
@@ -53,7 +52,7 @@ console.log(bubbleSort([8,1,2,3,4,5,6,7]))
 //   5, 6, 7, 8
 // ]
 
-// Optimized BubbleSort with noSwaps
+> ## Optimized BubbleSort with noSwaps: :wink:
 function bubbleSort(arr){
   var noSwaps;
   for(var i = arr.length; i > 0; i--){
@@ -79,10 +78,10 @@ console.log(bubbleSort([8,1,2,3,4,5,6,7]))
 
 
 
-// Selection Sort (non ES2015 syntax)
+> ## Selection Sort (non ES2015 syntax): :wink:
 
-// insert Selection_Sort_visual.png
-// insert Selection_Sort.png
+![Selection_Sort_visual](https://github.com/NoriKaneshige/Basic_Sorting_Argorithm/blob/master/Selection_Sort_visual.png)
+![Selection_Sort](https://github.com/NoriKaneshige/Basic_Sorting_Argorithm/blob/master/Selection_Sort.png)
 
 
 function sselectionSort(arr){
@@ -109,7 +108,7 @@ console.log(selectionSort([0,2,34,22,10,19,17]))
 //   19, 22, 34
 // ]
 
-// Selection Sort, ES2015 VERSION
+> ## Selection Sort, ES2015 VERSION: :wink:
 function selectionSort(arr) {
   const swap = (arr, idx1, idx2) =>
     ([arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]);
@@ -134,10 +133,9 @@ console.log(selectionSort([0,2,34,22,10,19,17]))
 // ]
 
 
-// Insertion Sort 
-
-// insert Insertion_Sort_visual.png
-// insert Insertion_Sort.png
+> ## Insertion Sort: :wink:
+![Insertion_Sort_visual](https://github.com/NoriKaneshige/Basic_Sorting_Argorithm/blob/master/Insertion_Sort_visual.png)
+![Insertion_Sort](https://github.com/NoriKaneshige/Basic_Sorting_Argorithm/blob/master/Insertion_Sort.png)
 
 
 function insertionSort(arr){
@@ -155,7 +153,7 @@ function insertionSort(arr){
 
 console.log(insertionSort([2,1,9,76,4])) //  1, 2, 4, 9, 76 ]
 
-// step by step understanding
+> ## step by step understanding: :wink:
 
 // i=1
 // currentval = arr[1] = 1
@@ -209,10 +207,3 @@ console.log(insertionSort([2,1,9,76,4])) //  1, 2, 4, 9, 76 ]
 // arr[j+1] = currentVal
 // arr[2] = currentVal = 4
 // [[1,2,4,9,76]]
-
-
-
-
-
-
-
